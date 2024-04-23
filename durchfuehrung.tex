@@ -15,6 +15,13 @@ ermöglicht das Licht mit dem bloßen Auge zu sehen. Außerdem ist darauf zu ach
 \label{sec:AufbLasergran}
 Der erste Teil des Versuches besteht darin den Schwellenstrom des Lasers zu messen ab welchem es zur sgn. Lasergranulation kommt.
 Der dazu verwendete Aufbau ist in \autoref{fig:Setup1} schematisch dargestellt.
+\begin{wrapfigure}{r}{0.32\textwidth}
+    \begin{center}
+        \includegraphics[width=0.4\textwidth]{Setup1.pdf}
+        \caption{Aufbau zur Bestimmung des Schwellenstroms \cite{ap60}.}
+        \label{fig:Setup1}
+    \end{center} 
+\end{wrapfigure}
 Lasergranulation tritt auf, wenn kohärentes Licht auf eine Oberfläche trifft, dessen Unebenheiten in etwa die Größe der Wellenlänge haben (gleiche Größenordnung).
 Nach dem Huygen'schen Prizip kann jeder Punkt einer Wellenfront als Kugelwelle verstanden werden. Aufgrund der unebenen Oberfläche kommt es dazu dass die überlagerten Kugelwellen
 nicht mehr die ursprüngliche Wellenfront ausbilden sondern es zu neuen Überlagerungen kommt, die in Form eines unregelmäßigen Interferenzmusters sichtbar werden.
@@ -22,13 +29,6 @@ Erst wenn der Strom der am Laser anliegt groß genug ist, ist das abgestrahlte L
 Kohärenz zu keinerlei Streuphänomenen kommen.
 Der Strom wird langsam erhöht bis die Lasergranulation auftritt.
 Die Kamera wird verwendet um je ein Bild unter- und überhalb des Schwellenstroms zu machen.
-\begin{wrapfigure}{r}{0.32\textwidth}
-    \begin{center}
-        \includegraphics[width=0.3\textwidth]{Setup1.pdf}
-        \caption{Setup for \cite{ap60}.}
-        \label{fig:Setup1}
-    \end{center} 
-\end{wrapfigure}
 
 
 \subsection{Rubidium Floureszenz und dessen Spektrum}
@@ -37,16 +37,15 @@ Die Kamera wird verwendet um je ein Bild unter- und überhalb des Schwellenstrom
 %The Rubidium Cell, which is placed between Field Coils and inside a heater to control its temperature, is set up between the ND Filter Holder and the laser.
 Um die Floureszenz von Rubidium zu untersuchen wird eine mit Rubidium gefüllte Zelle in den Strahl platziert. Diese Zelle wird zwischen Feldspulen und in einem Heizer platziert um die Temperatur konstant zuhalten.
 Im Anschluss muss der Strahl so eingestellt werde, dass die Floureszenz als heller leuchtender Strich deutlich in der Kamera zu sehen ist. Der Strom wird weit über den Schwellenstrom gedreht, um sicherzugehen dass die Leuchtkraft des Lasers
-ausreichend ist. Um nun die für Rbidium passende Frequenz zu erreichen, kann der Piezo-Kristall im Laser über eine Veränderung des an ihm anliegenden Strom so verformt werden, dass dieser 
+ausreichend ist. Um nun die für Rubidium passende Frequenz zu erreichen, kann der Piezo-Kristall im Laser über eine Veränderung des an ihm anliegenden Strom so verformt werden, dass dieser 
 den Winkel des Gitter und die Resonanz des inneren Resonators verändert.
 Der verwendete Aufbau ist in \autoref{fig:Setup2} dargestellt.
-\begin{wrapfigure}{r}{0.32\textwidth}
-    \begin{center}
-        \includegraphics[width=0.3\textwidth]{Setup2.pdf}
-        \caption{Setup for \cite{ap60}.}
-        \label{fig:Setup2}
-    \end{center} 
-\end{wrapfigure}
+\begin{figure}
+    \centering
+        \includegraphics[width=0.8\textwidth]{Setup2.pdf}
+        \caption{Aufbau zur Messung der Rubidium Floureszenz \cite{ap60}.}
+        \label{fig:Setup2} 
+\end{figure}
 Das Spektrum von Rubidium wird mit einem ähnlichen Aufbau aufgezeichnet. Hierzu muss jedoch zwischen Laser und Rubidium-Zelle ein Strahlteiler eingebaut werden, welcher den einen Teil direkt in ein Photoelement leitet
 und einen anderen Teil durch die Rubidium-Zelle in einen zweiten Photodetektor leitet.
 Es sind zwei Photozellen nötig, damit die auftretende Hintergrundstrahlung herausgefiltert werden kann. So kann das Signal das ersten Detektors später vom zweiten abgezogen werden um ein klareres Bild zu erzeugen.
